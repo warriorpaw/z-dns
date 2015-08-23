@@ -1,0 +1,15 @@
+#hosts文件优先级高于这个文件的，不区分大小写
+#不要动[]内的名字
+#位于[Celestial Urls]下面的域名，将使用天朝的DNS解析
+#[Foreign Urls]下面的将使用境外DNS解析
+#hosts以及下面都没有的域名，默认使用境外域名解析，并记录在switch.log文件中
+
+[Celestial Urls]
+*.qq.com
+*.baidu.com
+*.csdN.coM
+
+
+[Foreign Urls]
+*.youtube.com
+*.google.com
